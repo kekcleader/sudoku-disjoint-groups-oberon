@@ -1,4 +1,4 @@
-# sudoku-disjoint-groups-oberon
+# Sudoku using Simulated Annealing
 A program that solves Sudoku (Disjoint Groups variation) using Simulated Annealing algorithm, written in Oberon.
 
 ## Compilation
