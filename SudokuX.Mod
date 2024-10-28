@@ -206,7 +206,7 @@ BEGIN
       x2 := X + Random(3);
       y2 := Y + Random(3);
       DEC(R)
-    UNTIL ((x # x2) OR (y # y2)) & ~next[y2, x2].fixed OR (R = 200);
+    UNTIL ((x # x2) OR (y # y2)) & ~next[y2, x2].fixed OR (R = 0);
     (* Swap *)
     IF R # 0 THEN
       tmp := next[y, x].num;
